@@ -1,8 +1,9 @@
 import os
 from dotenv import load_dotenv
-load_dotenv()
 import django
 
+
+load_dotenv()
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settings')
 django.setup()
 
