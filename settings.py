@@ -1,8 +1,8 @@
 from dotenv import load_dotenv
-load_dotenv()
 import os
 
 
+load_dotenv()
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
