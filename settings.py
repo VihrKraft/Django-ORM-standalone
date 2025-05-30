@@ -16,7 +16,7 @@ DATABASES = {
 
 INSTALLED_APPS = ['datacenter']
 
-SECRET_KEY = 'REPLACE_ME'
+SECRET_KEY = os.getenv('APP_SECRET_KEY')
 
 TIME_ZONE = 'Europe/Moscow'
 
